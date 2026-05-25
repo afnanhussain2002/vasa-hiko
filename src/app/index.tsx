@@ -2,16 +2,9 @@ import { Text, View, StyleSheet } from "react-native";
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text>Vasa Hiko</Text>
+    <View>
+      <Text className="text-3xl text-red-600">Vasa Hiko</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
