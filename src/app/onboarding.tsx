@@ -14,7 +14,7 @@ export default function OnboardingScreen() {
             className="h-12 w-12"
             resizeMode="contain"
           />
-          <Text className="text-h3 text-text-primary">vasa-hiko</Text>
+          <Text className="text-h3 text-text-primary">VasaHiko</Text>
         </View>
 
         {/* Title */}
