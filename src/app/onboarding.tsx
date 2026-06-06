@@ -1,6 +1,6 @@
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { router } from "expo-router";
+import { router, type Href } from "expo-router";
 import { images } from "@/constants/images";
 
 export default function OnboardingScreen() {
@@ -135,7 +135,7 @@ export default function OnboardingScreen() {
         <TouchableOpacity
           style={styles.button}
           activeOpacity={0.8}
-          onPress={() => router.replace("/")}
+          onPress={() => router.replace("/sign-up" as Href)}
         >
           <Text style={styles.buttonText}>Get Started</Text>
           <Text style={styles.buttonArrow}>&gt;</Text>
